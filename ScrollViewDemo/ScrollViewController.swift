@@ -17,12 +17,13 @@ class ScrollViewController: UIViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         
         imageView = UIImageView(image: UIImage(named: "image.png"))
+        //imageView = UIImageView(image: UIImage(named: "pano.jpg"))
         
         scrollView = UIScrollView(frame: view.bounds)
         scrollView.backgroundColor = UIColor.blackColor()
         scrollView.contentSize = imageView.bounds.size
         scrollView.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
-        scrollView.contentOffset = CGPoint(x: 1000, y: 450)
+        scrollView.contentOffset = CGPoint(x: scrollView.bounds.size.width/2, y: scrollView.bounds.size.height/2)
         
         scrollView.addSubview(imageView)
         view.addSubview(scrollView)
@@ -45,7 +46,7 @@ class ScrollViewController: UIViewController, UIScrollViewDelegate {
         let heightScale = scrollViewSize.height / imageViewSize.height
         
         scrollView.minimumZoomScale = min(widthScale, heightScale)
-        scrollView.zoomScale = 1.0
+        scrollView.zoomScale = 0
     }
     
     override func viewWillLayoutSubviews() {

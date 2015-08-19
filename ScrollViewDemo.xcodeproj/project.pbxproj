@@ -14,6 +14,7 @@
 		5F663E341B1EDDED00491AA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F663E321B1EDDED00491AA9 /* LaunchScreen.xib */; };
 		5F663E401B1EDDED00491AA9 /* ScrollViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F663E3F1B1EDDED00491AA9 /* ScrollViewDemoTests.swift */; };
 		5F663E4A1B1EEC6900491AA9 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F663E491B1EEC6900491AA9 /* image.png */; };
+		94BF44731B8513B900886D8B /* pano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94BF44721B8513B900886D8B /* pano.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5F663E3E1B1EDDED00491AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F663E3F1B1EDDED00491AA9 /* ScrollViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewDemoTests.swift; sourceTree = "<group>"; };
 		5F663E491B1EEC6900491AA9 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		94BF44721B8513B900886D8B /* pano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				5F663E301B1EDDED00491AA9 /* Images.xcassets */,
 				5F663E321B1EDDED00491AA9 /* LaunchScreen.xib */,
 				5F663E491B1EEC6900491AA9 /* image.png */,
+				94BF44721B8513B900886D8B /* pano.jpg */,
 				5F663E271B1EDDEC00491AA9 /* Supporting Files */,
 			);
 			path = ScrollViewDemo;
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F663E2F1B1EDDEC00491AA9 /* Main.storyboard in Resources */,
+				94BF44731B8513B900886D8B /* pano.jpg in Resources */,
 				5F663E341B1EDDED00491AA9 /* LaunchScreen.xib in Resources */,
 				5F663E311B1EDDED00491AA9 /* Images.xcassets in Resources */,
 				5F663E4A1B1EEC6900491AA9 /* image.png in Resources */,
@@ -413,6 +417,7 @@
 				5F663E451B1EDDED00491AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F663E461B1EDDED00491AA9 /* Build configuration list for PBXNativeTarget "ScrollViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				5F663E481B1EDDED00491AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
